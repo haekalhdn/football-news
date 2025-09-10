@@ -34,8 +34,9 @@ DEBUG = True
 ALLOWED_HOSTS = ["localhost", "127.0.0.1", "haekal-handrian-footballnews.pbp.cs.ui.ac.id"]
 
 CSRF_TRUSTED_ORIGINS = [
-    "http://haekal-handrian-footballnews.pbp.cs.ui.ac.id"
-    ]
+    "https://haekal-handrian-footballnews.pbp.cs.ui.ac.id",
+    "http://haekal-handrian-footballnews.pbp.cs.ui.ac.id",
+]
 # Application definition
 
 INSTALLED_APPS = [
