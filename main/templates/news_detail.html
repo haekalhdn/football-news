@@ -14,5 +14,10 @@
 {% endif %}
 
 <p>{{ news.content }}</p>
+{% if news.user %}
+    <p>Author: {{ news.user.username }}</p>
+{% else %}
+    <p>Author: Haecker</p>
+{% endif %}
 
 {% endblock content %}
